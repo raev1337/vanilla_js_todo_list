@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+
+*, 
+html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button{
+    cursor: pointer;
+}
+
+.todo_wrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 7.5rem 0;
+}
+
+.todo_add_pannel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25rem;
+    height: 3rem;
+    background: linear-gradient(0deg, rgba(195,34,191,1) 0%, rgba(218,140,216,1) 100%);
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.task_input{
+    text-indent: 5px;
+    width: 19.75rem;
+    height: 2.5rem;
+    border-radius: 2.5px;
+    border: 0px;
+}
+
+.task_input::placeholder{
+    color: #000;
+}
+
+.add_task{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    height: 2.5rem;
+    margin-left: 1rem;
+    border-radius: 2.5px;
+    border: 0px;
+    background: #fff;
+}
+
+.add_task i{
+    font-size: 1rem;
+}
+
+.todo_task_list{
+    margin-top: 2rem;
+    padding-top: 1.25rem;
+    background: linear-gradient(0deg, rgba(195,34,191,1) 0%, rgba(218,140,216,1) 100%);
+    width: 27rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.task{
+    width: 25rem;
+    height: 2.5rem;
+    border-radius: 2.5px;
+    background-color: #fff;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.25rem;
+}
+
+.task_name{
+    margin-left: 5px;
+}
+
+.delete_task{
+    font-size: 1rem;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border: none;
+    background: linear-gradient(0deg, rgba(167,46,46,1) 0%, rgba(217,83,83,1) 100%);
+    border-radius: 2.5px;
+    margin-right: 5px;
+}
+
