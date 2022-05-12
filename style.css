@@ -18,6 +18,10 @@ button{
     margin: 7.5rem 0;
 }
 
+.todo_wrapper h1{
+    margin-bottom: 1.5rem;
+}
+
 .todo_add_pannel{
     display: flex;
     justify-content: center;
@@ -41,11 +45,15 @@ button{
     color: #000;
 }
 
+.task_input:focus::placeholder{
+    color: transparent;
+}
+
 .add_task{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 4px;
+    padding: 4px 10.5px;
     height: 2.5rem;
     margin-left: 1rem;
     border-radius: 2.5px;
